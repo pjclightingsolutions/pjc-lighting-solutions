@@ -1,6 +1,3 @@
-// NOTE: This file expects TailwindCSS to be installed in your Next.js project.
-// Ensure you have app/globals.css and Tailwind configured per setup steps.
-
 import { useMemo, useState } from "react";
 import { CheckCircle, Phone, Star, X } from "lucide-react";
 
