@@ -1,17 +1,20 @@
-export const metadata = {
-  title: "PJC Lighting Solutions",
-  description: "Permanent track lighting serving all of Arizona."
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.png" />
-      </head>
-      <body style={{ margin: 0, fontFamily: "system-ui, Arial, sans-serif" }}>
-        {children}
-      </body>
-    </html>
-  );
+{
+  "name": "pjc-lighting-solutions",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.469.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.10",
+    "postcss": "8.4.41",
+    "autoprefixer": "10.4.20"
+  }
 }
